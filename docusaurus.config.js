@@ -12,12 +12,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title:
-    "AiShort(ChatGPT Shortcut)-AI Prompt Management,Productivity Tool",
+    "BUZZ ChatGPT Prompt Tool",
   // tagline: '方便中文使用 ChatGPT 快捷指令',
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://www.aishort.top",
+  url: "https://prompt.buzzchat.top",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -135,9 +135,9 @@ const config = {
       ],
       navbar: {
         hideOnScroll: true,
-        title: "AI Short",
+        title: "BUZZ Prompt",
         logo: {
-          alt: "ChatGPT Shortcuts",
+          alt: "BUZZ ChatGPT Shortcuts",
           src: "img/logo.svg",
         },
         items: [
@@ -153,32 +153,20 @@ const config = {
           },
           {
             type: "dropdown",
-            label: "🛠️ 应用工具",
+            label: "🛠️ BUZZ工具集",
             position: "left",
             items: [
               {
-                label: "IMGPrompt",
-                href: "https://prompt.newzone.top/",
+                label: "BUZZChat",
+                href: "https://buzzhr-gpt.hf.space/",
               },
               {
-                label: "文字处理",
-                href: "https://tools.newzone.top/json-translate",
+                label: "BUZZ-AI工具集",
+                href: "https://blog.buzzchat.top/article/ai",
               },
               {
-                label: "工具收藏",
-                href: "https://nav.newzone.top",
-              },
-              {
-                label: "Chrome 扩展",
-                href: "https://chrome.google.com/webstore/detail/chatgpt-shortcut/blcgeoojgdpodnmnhfpohphdhfncblnj",
-              },
-              {
-                label: "Edge 扩展",
-                href: "https://microsoftedge.microsoft.com/addons/detail/chatgpt-shortcut/hnggpalhfjmdhhmgfjpmhlfilnbmjoin",
-              },
-              {
-                label: "Find on Product Hunt",
-                href: "https://www.producthunt.com/posts/chatgpt-shortcut?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chatgpt&#0045;shortcut",
+                label: "BUZZ导航",
+                href: "https://navi.buzzchat.top/",
               },
             ],
           },
@@ -188,35 +176,25 @@ const config = {
             position: "left",
             items: [
               {
-                label: "📝 提交反馈",
-                to: "/feedback",
+                label: "📝 BUZZ's Blog",
+                to: "https://blog.buzzchat.top/",
               },
               {
                 label: "💬 微信交流",
-                href: "https://img.newzone.top/wechat.svg",
+                href: "https://files.superbed.cn/store/superbed/84/a8/64a914651ddac507ccca84a8.jpg",
+              },
+              {
+                label: "🐧 QQ交流",
+                href: "https://qm.qq.com/q/wpLvAH87cc",
               },
               {
                 label: "📧 发送邮件",
-                href: "mailto:learndata@newzone.top",
-              },
-              {
-                label: "📺 加入 Discord",
-                href: "https://discord.gg/PZTQfJ4GjX",
+                href: "mailto:2793217027@qq.com",
               },
             ],
           },
           // remove the language dropdown from the navbar (if you only have one language)
           { type: "localeDropdown", position: "right" },
-          {
-            href: "https://github.com/rockbenben/ChatGPT-Shortcut",
-            position: "right",
-            className: "header-github-link",
-          },
-          {
-            href: "https://discord.gg/PZTQfJ4GjX",
-            position: "right",
-            className: "header-discord-link",
-          },
         ],
       },
       footer: {

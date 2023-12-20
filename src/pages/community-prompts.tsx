@@ -42,7 +42,7 @@ const { Text } = Typography;
 
 function CommunityPrompts() {
   const TITLE =
-    "AiShort Community Prompts - Share and find interesting prompts";
+    "BUZZ Community Prompts - Share and find interesting prompts";
   const DESCRIPTION = translate({
     id: "description.communityPrompts",
     message:
